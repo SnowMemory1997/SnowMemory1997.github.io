@@ -28,3 +28,11 @@
     transform: translateX(8rem);
   }
 }
+#subtitle {
+  word-break: normal;
+  width: auto;
+  display: block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: hidden;
+}
