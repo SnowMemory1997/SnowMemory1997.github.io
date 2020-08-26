@@ -40,6 +40,17 @@
 <body>
   <div id="app">
     
+      <canvas class="fireworks"></canvas>
+      <style>
+        .fireworks {
+          position: fixed;
+          left: 0;
+          top: 0;
+          z-index: 99999;
+          pointer-events: none;
+        }
+      </style>
+      
       
     <main class="content on">
       
@@ -47,7 +58,7 @@
     
   <div class="cover-frame">
     <div class="bg-box">
-      <img src="/images/cover1.jpg" alt="image frame" />
+      <img src="/images/cover1.png" alt="image frame" />
     </div>
     <div class="cover-inner text-center text-white">
       <h1><a href="/">雪中足迹</a></h1>
@@ -76,7 +87,7 @@
   <script>
     try {
       var typed = new Typed("#subtitle", {
-        strings: ['世界是美丽的，纵使充满悲伤与泪水，也请睁开你的双眼，\n去做你想做的事，成为你想成为的人，去找到你的朋友。\n不要焦躁，慢慢长大。^3000', '', ''],
+        strings: ['世界是美丽的，纵使充满悲伤与泪水，也请睁开你的双眼，\n去做你想做的事，成为你想成为的人，去找到你的朋友。\n不要焦躁，慢慢地去长大。^3000', '', ''],
         startDelay: 0,
         typeSpeed: 120,
         loop: true,
@@ -96,7 +107,7 @@
     
     
     <article
-  id="post-helloworld"
+  id="post-大家好，这里是雪的记忆（Snow-Memory）"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
@@ -107,22 +118,77 @@
     <header class="article-header">
        
 <h2 itemprop="name">
-  <a class="article-title" href="/2020/08/25/helloworld/"
-    >helloworld</a> 
+  <a class="article-title" href="/2020/08/26/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E8%BF%99%E9%87%8C%E6%98%AF%E9%9B%AA%E7%9A%84%E8%AE%B0%E5%BF%86%EF%BC%88Snow-Memory%EF%BC%89/"
+    >大家好，这里是雪的记忆（Snow-Memory）</a> 
 </h2>
  
 
     </header>
      
     <div class="article-meta">
-      <a href="/2020/08/25/helloworld/" class="article-date">
-  <time datetime="2020-08-25T13:13:21.000Z" itemprop="datePublished">2020-08-25</time>
-</a>    
+      <a href="/2020/08/26/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E8%BF%99%E9%87%8C%E6%98%AF%E9%9B%AA%E7%9A%84%E8%AE%B0%E5%BF%86%EF%BC%88Snow-Memory%EF%BC%89/" class="article-date">
+  <time datetime="2020-08-25T23:08:52.000Z" itemprop="datePublished">2020-08-26</time>
+</a>   
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> Word count:</span>
+            <span class="post-count">173</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> Reading time≈</span>
+            <span class="post-count">1 min</span>
+        </span>
+    </span>
+</div>
+ 
     </div>
       
     <div class="article-entry" itemprop="articleBody">
        
-   
+  <br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<p>大家好，这里是思雪的个人博客——雪中足迹。</p>
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<p>如你所见，本文的标题叫“雪的记忆”</p>
+<p><br></p> 
+      <a class="article-more-link" href="/2020/08/26/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E8%BF%99%E9%87%8C%E6%98%AF%E9%9B%AA%E7%9A%84%E8%AE%B0%E5%BF%86%EF%BC%88Snow-Memory%EF%BC%89/"
+        >阅读更多...</a
+      >
+       
       <!-- reward -->
       
     </div>
@@ -132,11 +198,12 @@
     
     <footer class="article-footer">
        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%AF%B4%E6%98%8E/" rel="tag">说明</a></li></ul>
+
     </footer>
   </div>
 
-    
- 
+   
    
 </article>
 
@@ -240,10 +307,6 @@
         <i class="ri-search-line"></i>
       </a>
       
-      
-      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
-        <i class="ri-rss-line"></i>
-      </a>
       
     </li>
   </ul>
@@ -407,11 +470,12 @@
 
 <!-- ClickLove -->
 
-
-<script src="/js/clickLove.js"></script>
-
-
 <!-- ClickBoom1 -->
+
+<script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script>
+
+<script src="/js/clickBoom1.js"></script>
+
 
 <!-- ClickBoom2 -->
 

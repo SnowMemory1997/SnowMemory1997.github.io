@@ -40,6 +40,17 @@
 <body>
   <div id="app">
     
+      <canvas class="fireworks"></canvas>
+      <style>
+        .fireworks {
+          position: fixed;
+          left: 0;
+          top: 0;
+          z-index: 99999;
+          pointer-events: none;
+        }
+      </style>
+      
       
     <main class="content on">
       <section class="outer">
@@ -64,13 +75,13 @@
       <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-      <a href="/2020/08/25/helloworld/" class="archive-article-date">
-  <time datetime="2020-08-25T13:13:21.000Z" itemprop="datePublished">08/25</time>
+      <a href="/2020/08/26/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E8%BF%99%E9%87%8C%E6%98%AF%E9%9B%AA%E7%9A%84%E8%AE%B0%E5%BF%86%EF%BC%88Snow-Memory%EF%BC%89/" class="archive-article-date">
+  <time datetime="2020-08-25T23:08:52.000Z" itemprop="datePublished">08/26</time>
 </a>
        
 <h2 itemprop="name">
-  <a class="archive-article-title" href="/2020/08/25/helloworld/"
-    >helloworld</a> 
+  <a class="archive-article-title" href="/2020/08/26/%E5%A4%A7%E5%AE%B6%E5%A5%BD%EF%BC%8C%E8%BF%99%E9%87%8C%E6%98%AF%E9%9B%AA%E7%9A%84%E8%AE%B0%E5%BF%86%EF%BC%88Snow-Memory%EF%BC%89/"
+    >大家好，这里是雪的记忆（Snow-Memory）</a> 
 </h2>
  
 
@@ -180,10 +191,6 @@
         <i class="ri-search-line"></i>
       </a>
       
-      
-      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
-        <i class="ri-rss-line"></i>
-      </a>
       
     </li>
   </ul>
@@ -347,11 +354,12 @@
 
 <!-- ClickLove -->
 
-
-<script src="/js/clickLove.js"></script>
-
-
 <!-- ClickBoom1 -->
+
+<script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script>
+
+<script src="/js/clickBoom1.js"></script>
+
 
 <!-- ClickBoom2 -->
 
